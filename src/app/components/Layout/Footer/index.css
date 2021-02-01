@@ -1,0 +1,20 @@
+.footer--container {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+  }
+  .footer--container-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+  }
+  .footer--text {
+    font-size: 16px;
+  }
+  .footer--cards {
+    width: 32px;
+    height: 22px;
+    object-fit: cover;
+  }
