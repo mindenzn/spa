@@ -1,23 +1,32 @@
-.header--container {
-  height: 100px;
-  border-bottom: 6px solid rgb(163, 163, 159);
+.background{
+  height: 350px;
+  background-image: url("../../../../images/hero2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  border-bottom: 60px solid white;
 }
-.header--wrapper {
-  display: flex;
-  width: 1180px;
-  margin: 0 auto;
+
+
+.header--container {
+  height: 60px;
 }
 .header--spa {
-  width: 250px;
-  object-fit: contain;
-  object-position: center;
-  height: 100px;
+  width: 450px;
+  object-fit: cover;
+  height: 110px;
+  border-radius: 10px;
 }
 .header--links-nav {
+  position: sticky;
+  top: 50px;
   width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255)
 }
 .header--links-ul {
-  height: 100%;
+  height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -27,9 +36,6 @@
   align-items: center;
   justify-content: center;
   width: 25%;
-  height: 50%;
-  border: 4px solid rgb(25, 173, 75);
-  border-radius: 50px 0;
   list-style: none;
   text-align: center;
   transition: 0.7s;
@@ -37,20 +43,22 @@
 
 .header--links-li:hover {
   transition: 0.7s;
-  color: white;
-  cursor: pointer;
-  background-color: rgb(163, 163, 159);
 }
 .header--button {
   font-family: "Yusei Magic", sans-serif;
-  font-weight: 300;
+  font-size: 18px;
   width: 100%;
   text-decoration: none;
   color: black;
-  transition: 0.8s;
+  outline: none;
+  border: none;
+  background-color:rgb(255, 255, 255);
+  transition: 0.7s;
 }
+ 
 .header--button:hover {
-  min-width: 100%;
-  transition: 0.8s;
-  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  transition: 0.7s;
+
 }
